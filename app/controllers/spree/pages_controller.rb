@@ -1,4 +1,5 @@
 class Spree::PagesController < Spree::BaseController
+  helper "spree/products"
 
   def show
     @page = current_page
